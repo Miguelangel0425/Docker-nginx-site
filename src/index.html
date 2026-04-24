@@ -1,118 +1,134 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Pagina Estatica</title>
-    <link rel="icon" type="image/x-icon" href="../img/gato.ico">
-
+    <title>Curriculum - 2026</title>
+    <link rel="icon" type="image/x-icon" href="./img/gato.ico">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 480px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: #f5f5f5;
-            color: #333;
+            font-family: Arial;
+            background-color: #f0f4ff;
+            text-align: center;
         }
 
         header {
-            background-color: #2496ed;
+            background-color: #4a90d9;
             color: white;
             padding: 20px;
-            text-align: center;
-            border-radius: 6px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
         }
 
         header p {
-            margin: 8px 0 0;
-            opacity: 0.9;
-        }
-
-        main {
-            background: white;
-            padding: 30px;
-            margin-top: 20px;
-            border-radius: 6px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            color: #dce8ff;
         }
 
         h2 {
-            color: #2496ed;
-            border-bottom: 2px solid #2496ed;
-            padding-bottom: 6px;
+            color: #4a90d9;
         }
 
-        ul {
-            line-height: 2;
+        section {
+            width: 60%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
         }
 
-        .info-box {
-            background-color: #e8f4fd;
-            border-left: 4px solid #2496ed;
-            padding: 12px 16px;
-            margin: 20px 0;
-            border-radius: 0 4px 4px 0;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4a90d9;
+            color: white;
+            padding: 8px;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        a {
+            background-color: #27ae60;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
         }
 
         footer {
-            text-align: center;
-            margin-top: 20px;
             color: #888;
-            font-size: 0.85rem;
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1> 🐳 Bienvenido a la Página Web</h1>
-        <p>Página desplegada con Dockerhub y Nginx</p>
+        <img src="../img/tarea_img.png" alt="Foto de Perfil" width="150">
+        <h1>Miguel Angel Caiza</h1>
+        <p>Correo Electrónico: miguel14caiza@email.com | Telefono: +593 962 893 714</p>
+        <br>
+        <a href="https://wa.me/593962893714" target="_blank">Contacto</a>
     </header>
     <main>
         <section>
-            <h2>Bienvenido</h2>
-            <p>Este es un sitio web estático creado con <strong>Nginx</strong>
-                y a su vez lanzado mediante un contenedor en <strong>Docker</strong>.</p>
-            <div class="info-box">
-                <strong>Si usted puede ver las instrucciones la página se lanzo sin fallas.</strong>
-            </div>
-        </section>
-
-        <section>
-            <h2>¿Qué se uso?</h2>
-            <ul>
-                <li>🐳 Docker</li>
-                <li>⚙️ Nginx (Alphine)</li>
-                <li>📄 Html y estilos</li>
-                <li>☁️ DockerHub</li>
-            </ul>
+            <h2>Perfil</h2>
+            <p>Me considero una persona que trata de trabajar en equipo y colaborar siempre
+                que mis compañeros lo necesiten.</p>
         </section>
         <section>
-            <h2>Información del Proyecto</h2>
-            <p>Este proyecto forma parte de la primer unidad en Programación Web
-                donde los puntos principales son:
-            </p>
-
-            <ul>
-                <li>Crear un sitio web estático con Html</li>
-                <li>Crear un Dockerfile funcional</li>
-                <li>Contruir y ejecutar una imagen en Docker</li>
-                <li>Publicar Dicha Imagen en DocerHub</li>
-                <li>Colocar un .Dockerignore para archivos innecesarios</li>
-                <li>Crear un Readme.md claro para poder usarlo</li>
-                <li>Usar GitHub como medio de documentación del proyecto.</li>
+            <h2>Educacion</h2>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Universidad de las Fuerzas Armadas ESPE</td>
+                        <td>Ingenieria En sofware (2022 - Presente)</td>
+                    </tr>
+                    <tr>
+                        <td>Unidad Educativa "Dr. Telmo Hidalgo Diaz"</td>
+                        <td>Bachiller en Ciencias BGU (2016-2022)</td>
+                    </tr>
+                    <tr>
+                        <td>Escuela de Educación Básica Vicente Aguirre</td>
+                        <td>(2010 - 2016)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Experiencia</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Cargo</th>
+                        <th>Tiempo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Int Food Service S.A.</td>
+                        <td>Polifuncional</td>
+                        <td>2 meses</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Idiomas</h2>
+            <ul style="text-align: left;">
+                <li>Español (Nativo)</li>
+                <li>Ingles (Intermedio)</li>
             </ul>
         </section>
+        <footer>
+            <p>&reg; Todos los Derechos Reservados</p>
+        </footer>
     </main>
-    <footer>
-        &reg 30710 Programación Web &mdash; Caiza Miguel &mdash; Proyecto Docker + Nginx &mdash; 2026
-    </footer>
 </body>
 
 </html>
