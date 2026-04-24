@@ -1,0 +1,43 @@
+#Control de versiones 
+.git 
+.gitignore
+.gitattributes
+
+#Documentacion
+README.md
+CHANGELOG.md
+LICENSE
+docs/
+
+#Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+#Variables del entorno
+.env
+.env.*
+*.secret
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos de CI/CD
+.github/
+.gitlab-ci.yml
+
+# Archivos temporales y caché
+*.tmp
+*.temp
+.cache/
+dist/
+build/
+
+
+# Herramientas de análisis estático
+.eslintcache
+.stylelintcache

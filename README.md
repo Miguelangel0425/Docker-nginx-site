@@ -7,7 +7,8 @@ Este sitio esta desplegado dentro de un contenedor docker usando Nginx como serv
  |
  |--src
  |   |--index.html
- |
+ |   |---img
+ |         
  |--Dockerfile
  |
  |
