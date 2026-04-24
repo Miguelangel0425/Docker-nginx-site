@@ -4,7 +4,7 @@ Este sitio esta desplegado dentro de un contenedor docker usando Nginx como serv
 
 <img width="1331" height="718" alt="image" src="https://github.com/user-attachments/assets/86c2d9c8-1f03-4d6a-b35a-add556828879" />
 
-## Estrutura de las carpetas 
+## Estructura de las carpetas 
  DOCKER-NGINX-SITE
  |
  |--src
