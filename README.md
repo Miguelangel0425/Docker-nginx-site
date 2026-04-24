@@ -23,11 +23,11 @@ Prerrequisitos
 -> Docker instalado y en ejecución
 -> Acceso a internet (para el docker pull)
 
-1. Descargar la imagen de DockerHub
+#1. Descargar la imagen de DockerHub
 
 docker pull m3nm4/docker-nginx-site:latest
 
-2. construir la imagen local 
+#2. construir la imagen local 
 # Clonar el repositorio
 git clone https://github.com/Miguelangel0425/Docker-nginx-site.git
 cd docker-nginx-site
